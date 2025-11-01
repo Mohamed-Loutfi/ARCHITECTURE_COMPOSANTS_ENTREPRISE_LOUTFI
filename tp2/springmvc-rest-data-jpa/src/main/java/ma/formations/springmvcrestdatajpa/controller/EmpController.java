@@ -94,7 +94,7 @@ public class EmpController {
 
     @RequestMapping("/max_salary")
     public String getMaxSalary(Model m) {
-        EmpVo EmpVo = service.getEmpHavaingMaxSalary();
+        EmpVo EmpVo = service.getEmpHavingMaxSalary();
         List<EmpVo> list = new ArrayList<>();
         list.add(EmpVo);
         m.addAttribute("list", list);

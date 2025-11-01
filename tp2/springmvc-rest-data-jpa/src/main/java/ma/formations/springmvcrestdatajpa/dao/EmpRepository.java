@@ -27,5 +27,5 @@ public interface EmpRepository extends JpaRepository<Emp, Long> {
     List<Emp> findBySalaryAndFonction(Double salary, String fonction);
 
     @Query(" SELECT e from Emp e where e.salary=(select MAX(salary) as salary FROM Emp)")
-    Emp getEmpHavaingMaxSalary();
+    Emp getEmpHavingMaxSalary();
 }

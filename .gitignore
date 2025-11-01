@@ -1,0 +1,22 @@
+# H2 Database
+*.mv.db
+*.trace.db
+*.lock
+testdb.*
+
+# Target directory
+target/
+build/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db

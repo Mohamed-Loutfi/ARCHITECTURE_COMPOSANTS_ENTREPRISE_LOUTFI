@@ -54,8 +54,8 @@ public class ServiceImpl implements IService, CommandLineRunner {
         return EmpConverter.toListVo(list);
     }
     @Override
-    public EmpVo getEmpHavaingMaxSalary() {
-        return EmpConverter.toVo(empRepository.getEmpHavaingMaxSalary());
+    public EmpVo getEmpHavingMaxSalary() {
+        return EmpConverter.toVo(empRepository.getEmpHavingMaxSalary());
     }
     @Override
     public List<EmpVo> findAll(int pageId, int size) {
